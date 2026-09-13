@@ -1,0 +1,107 @@
+$date
+	Tue Aug 11 02:20:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module hamming_encoder $end
+$var wire 4 ! i_info [3:0] $end
+$var wire 7 " o_message [6:0] $end
+$var wire 3 # parity [2:0] $end
+$var wire 7 $ message [6:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bxzzzz $
+bx #
+bxzzzz "
+bz !
+$end
+#1000
+b0 #
+b0 "
+b0 $
+b0 !
+#3000
+b11 #
+b110001 "
+b110001 $
+b1 !
+#5000
+b110 #
+b1100010 "
+b1100010 $
+b10 !
+#7000
+b101 #
+b1010011 "
+b1010011 $
+b11 !
+#9000
+b111 #
+b1110100 "
+b1110100 $
+b100 !
+#11000
+b100 #
+b1000101 "
+b1000101 $
+b101 !
+#13000
+b1 #
+b10110 "
+b10110 $
+b110 !
+#15000
+b10 #
+b100111 "
+b100111 $
+b111 !
+#17000
+b101 #
+b1011000 "
+b1011000 $
+b1000 !
+#19000
+b110 #
+b1101001 "
+b1101001 $
+b1001 !
+#21000
+b11 #
+b111010 "
+b111010 $
+b1010 !
+#23000
+b0 #
+b1011 "
+b1011 $
+b1011 !
+#25000
+b10 #
+b101100 "
+b101100 $
+b1100 !
+#27000
+b1 #
+b11101 "
+b11101 $
+b1101 !
+#29000
+b100 #
+b1001110 "
+b1001110 $
+b1110 !
+#31000
+b111 #
+b1111111 "
+b1111111 $
+b1111 !
+#33000

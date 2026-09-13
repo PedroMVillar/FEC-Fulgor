@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1786414858" />
+    <testcase name="test_hamming_encoder" classname="hamming_encoder_tb" file="/mnt/c/Users/FedericoVillar/Documents/curso_fec/unidad3/hamming_7_4_encoder/hamming_encoder_tb.py" lineno="27" time="0.0024344921112060547" sim_time_ns="33.0" ratio_time="13555.188718049163" />
+  </testsuite>
+</testsuites>
